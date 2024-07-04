@@ -8,17 +8,17 @@ const weatherIcon = document.querySelector(".weather-icon");
 // Function to get the appropriate icon based on weather conditions
 function getWeatherIcon(weather) {
     if (weather.includes("clear")) {
-        return "clear-day.png";
+        return "../img/clear-day.png";
     } else if (weather.includes("clouds")) {
-        return "cloudy-day.png";
+        return "../img/cloudy-day.png";
     } else if (weather.includes("rain")) {
-        return "rainy-day.png";
+        return "../img/rainy-day.png";
     } else if (weather.includes("thunderstorm")) {
-        return "thunderstorm-day.png";
+        return "../img/thunderstorm-day.png";
     } else if (weather.includes("snow")) {
-        return "snowy-day.png";
+        return "../img/snowy-day.png";
     } else {
-        return "default-weather.png";
+        return "../img/default-weather.png";
     }
 }
 
